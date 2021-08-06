@@ -91,7 +91,7 @@
 /* LANDING */
 
 .inicio {
-    background-image: url(/img/bannerImg.png);
+    background-image: url(img/bannerImg.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 70vh;
