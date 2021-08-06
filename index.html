@@ -6,52 +6,141 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clase 6 - PetShop</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
 <body>
-    <ul>
-        <li>Grandes ofertas en comederos</li>
-        <li>Menu Regional</li>
-        <ul>
-            <li>Español</li>
-            <li>$ARG</li>
-        </ul>
-    </ul>
+    <header>
+        <div class="subheader">
+            <p>Grandes ofertas en comederos</p>
+            <ul>
+                <li>Español</li>
+                <li>ARG$</li>
+            </ul>
+        </div>
+        <div class="header">
+            <div class="hlogo">
+                <img src="img/Dog.png" alt="">
+                <p><span>Front</span>Cat&Dog</p>
+                <img src="img/Dog.png" alt="">
+            </div>
 
+            <i class="fas fa-bars hamburguesa" id="hamburguesa"></i>
+
+            <ul class="menu">
+                <li><i class="fas fa-paw"></i><a href="">Categorias</a></li>
+                <li><i class="fas fa-paw"></i><a href="">Pets</a></li>
+                <li><i class="fas fa-paw"></i><a href="">Nosotros</a></li>
+                <li><i class="fas fa-paw"></i><a href="">Contactanos</a></li>
+            </ul>
+        </div>
+    </header>
     <main>
-        <ul>
-            Menu principal
-            <li>Categorias</li>
-            <li>Pets</li>
-            <li>Nosotros</li>
-            <li>Contactanos</li>
-        </ul>
+        <div class="inicio">
+            <div class="inicioC">
+                <span>!Es un placer tenerte aquí!</span>
+                <p>¡Comederos en descuento!</p>
+                <a href="">COMEDEROS</a>
+            </div>
+        </div>
+        <div class="productos">
+            <div class="iniProduct">
+                <img src="img/Patita.png" alt="">
+                <h1>Productos Destacados</h1>
+                <p class="subTP">Comederos - Accesorios - Comdia</p>
+            </div>
 
-        <img src="img/dry-dog-food-5198627_1280.jpg" alt="Imagen principal">
-        <p>¡Es un placer tener aquí!</p>
-        <p>¡Comederos en descuento!</p>
-        <a href="">COMEDEROS</a>
-        <h2>Sección Produtos</h2>
-        <img src="" alt="">
-        <p>Prodcutos Destacados</p>
-        <p>Comederos-Accesorios-Comida</p>
+            <div class="cards">
+                <div class="card">
+                    <img class="cardImg" src="img/churrasquito.png" alt="">
+                    <p class="cardDescp">Juguete Churrasquito</p>
+                    <p class="cardPrecio">$150</p>
+                </div>
 
-        <img src="" alt="">
-        <p>Jugute Churrasquito</p>
-        <p>$150</p>
+                <div class="card">
+                    <img class="cardImg" src="img/comedero.png" alt="">
+                    <p class="cardDescp">Comedero para perro</p>
+                    <p class="cardPrecio">$250</p>
+                </div>
 
-        <img src="" alt="">
-        <p>Jugute Churrasquito</p>
-        <p>$150</p>
+                <div class="card">
+                    <img class="cardImg" src="img/Huesito.png" alt="">
+                    <p class="cardDescp">Juguete Huesito</p>
+                    <p class="cardPrecio">$650</p>
+                </div>
+            </div>
+        </div>
 
-        <img src="" alt="">
-        <p>Jugute Churrasquito</p>
-        <p>$150</p>
+        <div class="formulario">
+            <h2>Contáctanos</h2>
+            <form action="">
+                <div class="inputs">
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido">
+                    <br>
+                    <input type="email" name="correo" id="correo" placeholder="Ingresá tu correo electrónico">
+                    <br>
+                    <input type="text" name="telefono" id="telefono" placeholder="Teléfono">
+                    <br>
+                </div>
+                <input type="reset" value="Resetear">
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+
     </main>
-
     <footer>
-        Todos los derechos reservados Front End
+        <div class="suscripcion">
+            <div class="sMensaje">
+                <i class="far fa-envelope"></i>
+                <p>Suscríbete para más novedades</p>
+            </div>
+            <form action="">
+                <input type="email" name="correoS" id="correoS" placeholder="Ingresá tu correo electrónico">
+                <input type="submit" value="Suscribirme">
+            </form>
+        </div>
+
+        <div class="fin">
+            <div class="infoFooter">
+                <div class="info">
+                    <img src="img/localidad.png" alt="">
+                    <div class="infor">
+                        <h5>Localidad</h5>
+                        <p>Calle - Provincia</p>
+                    </div>
+                </div>
+
+                <div class="info">
+                    <img src="img/telefono.png" alt="">
+                    <div class="infor">
+                        <h5>Teléfono</h5>
+                        <p>Numero de telefono</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <img src="img/correo.png" alt="">
+                    <div class="infor">
+                        <h5>Correo Electrónico</h5>
+                        <p>Dirección de Correo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flogo">
+                <img src="img/Dog.png" alt="">
+                <p><span>Front </span>Cat&Dog</p>
+                <img src="img/Dog.png" alt="">
+            </div>
+        </div>
+
+        <p class="derechos">Todos los derechos reservados Front End</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+
 </body>
 
 </html>
